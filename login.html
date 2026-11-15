@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calendario | Petali d'Amore</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilo.css">
+  <script src="scripts.js" defer></script>
+</head>
+<body>
+  <header class="encabezado">
+    <a class="marca" href="#" aria-label="Petali d'Amore, inicio">
+      <span class="marca-flor">✿</span>
+      <span><strong>Petali d'Amore</strong><small>RISTORANTE ITALIANO</small></span>
+    </a>
+
+    <a href="index.html" class="btn-inicio">
+    Volver al inicio </a>
+    <span class="encabezado-frase">Momentos para saborear</span>
+  </header>
+
+  <main class="contenedor">
+    <section class="intro">
+      <p class="sobrelinea">LA VIDA SE CELEBRA EN LA MESA</p>
+      <h1>Nuestro calendario <em>de momentos especiales</em></h1>
+      <p>Selecciona una fecha para descubrir qué evento o promoción tenemos preparado.</p>
+    </section>
+
+    <section class="panel-calendario" aria-label="Calendario y detalle de eventos">
+      <div class="calendario">
+        <div class="calendario-cabecera">
+          <div>
+            <p class="sobrelinea">AGENDA DEL RESTAURANTE</p>
+            <h2 id="mes-anio">Mes 2026</h2>
+          </div>
+          <div class="controles-mes">
+            <button id="mes-anterior" class="flecha" type="button" aria-label="Mes anterior">‹</button>
+            <button id="mes-siguiente" class="flecha" type="button" aria-label="Mes siguiente">›</button>
+          </div>
+        </div>
+        <div class="dias-semana" aria-hidden="true">
+          <span>Lun</span><span>Mar</span><span>Mié</span><span>Jue</span><span>Vie</span><span>Sáb</span><span>Dom</span>
+        </div>
+        <div id="rejilla-calendario" class="rejilla-calendario" aria-label="Días del mes"></div>
+        <div class="leyenda">
+          <span><i class="punto punto-evento"></i> Evento especial</span>
+          <span><i class="punto punto-promo"></i> Promoción especial</span>
+        </div>
+      </div>
+
+      <aside class="detalle">
+        <div class="detalle-adorno">✿</div>
+        <p class="sobrelinea">DETALLES DEL DÍA</p>
+        <h2 id="titulo-detalle">Elige una fecha</h2>
+        <p id="texto-detalle" class="texto-detalle">Presiona cualquiera de los días marcados en el calendario para conocer su celebración o promoción.</p>
+        <div id="lista-eventos" class="lista-eventos">
+          <div class="estado-vacio">Aquí aparecerá la información de la fecha que selecciones.</div>
+        </div>
+        <div class="nota-reserva">
+          <span>♡</span>
+          <p>¿Tienes una celebración? <strong>Reserva tu mesa</strong> y déjanos ser parte de tu momento.</p>
+        </div>
+      </aside>
+    </section>
+
+    <section class="promociones-semana">
+      <div class="seccion-titulo">
+        <div>
+          <p class="sobrelinea">SIEMPRE HAY ALGO ESPECIAL</p>
+          <h2>Promociones de la semana</h2>
+        </div>
+        <p>Pequeños detalles para disfrutar más.</p>
+      </div>
+      <div class="promos-grid">
+        <article class="promo-semanal"><span class="promo-dia">LUNES Y MARTES</span><h3>¡Días de pasta!</h3><p>2x1 en pastas seleccionadas.</p></article>
+        <article class="promo-semanal"><span class="promo-dia">MIÉRCOLES</span><h3>Mitad de semana</h3><p>10% de descuento en pizzas.</p></article>
+        <article class="promo-semanal"><span class="promo-dia">DOMINGO</span><h3>Domingo en familia</h3><p>Entrada de cortesía al ordenar cuatro platillos.</p></article>
+      </div>
+      <p class="aclaracion-promos">Promociones sujetas a disponibilidad. No acumulables con otras ofertas.</p>
+    </section>
+
+    <footer>
+      <span class="flor-footer">✿</span>
+      <p>Petali d'Amore · Hecho con amore, servido con el corazón.</p>
+    </footer>
+  </main>
+</body>
+</html>

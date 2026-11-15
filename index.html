@@ -1,0 +1,625 @@
+<!--
+  ======================================================================
+  INSTITUCIÓN: CBTis 166 Pablo Torres Burgos
+  ----------------------------------------------------------------------
+  * Estudiante: Flores Corona Noemi
+  * Grupo: 5A PRO VESP  
+  * Actividad: Portal Institucional (Con barra superior, collage y formulario)
+  ====================================================================== -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Italiano-Petali d'Amore</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- BARRA DE NAVEGACIÓN PRINCIPAL -->
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                 <a class="marca" href="#" aria-label="Petali d'Amore, inicio">
+                    <span class="marca-flor">✿</span>
+                    <span><strong>Petali d'Amore</strong><small>RISTORANTE ITALIANO</small></span>
+                </a>
+            </div>
+            <nav class="nav-links">
+                <a href="#inicio">Sobre nosotros</a>
+                <a href="#oferta">Nuestros platillos</a>
+                <a href="login.html" class="btn-nav-login">Calenderización</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- SECCIÓN DE DOS COLUMNAS CON COLLAGE DE IMÁGENES -->
+    <section class="hero-section">
+        <div class="hero-container">
+            
+            <!-- Columna Izquierda: Textos, Botón y Beneficios -->
+            <div class="hero-text-side">
+                <span class="hero-tag">Un poco de nuestra historia</span>
+                <h1>Restaurante Petali d'Amore</h1>
+                <p>Empezamos en un pequeño puesto con nuestra receta familiar de lasaña. Abrimos con 6 mesas, 
+                    pasta fresca y horno de leña. Ampliamos menú y empezamos con servicio para eventos. Y hoy 
+                    a más de 14 años brindando el verdadero sabor casero de Italia.</p>
+                
+                <div class="hero-cta-box">
+                    <a href="login.html" class="btn-orange">Checa nuestro calendario de eventos →</a>
+                    <div class="hero-benefits">
+                        <span>✓ Promociones de días especiales</span>
+                        <span>✓ Diferentes horarios</span>
+                        <span>✓ Eventos para todas las edades</span>
+                        <span>✓ Grandes sorpresas</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Columna Derecha: Collage de Imágenes -->
+            <div class="hero-image-side">
+                <div class="image-collage">
+                    <div class="collage-main">
+                        <img src="img/1.jpg" alt="Estudiante CBTis">
+                    </div>
+                    <div class="collage-sub">
+                        <img src="img/2.jpg" alt="Laboratorista">
+                        <img src="img/3.jpg" alt="Programación">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE PLATILLOS ITALIANOS CON IMÁGENES ALUSIVAS -->
+    <section id="oferta" class="careers-section">
+        <div class="section-container">
+            <div class="section-header">
+                <h2>Variedad de platillos deliciosos</h2>
+                <p>Elige tu especialidad y sabor, guiandote de la pequeñas 
+                    descripciones, para que ya tengas decidido que disfrutaras en tu proxima visita</p>
+            </div>
+
+            <h2 class="new"> Los platillos más pedidos:</h2><br>
+            <h2 class="new"> PASTAS</h2><br>
+
+            <div class="careers-grid">
+                
+                <!-- Especiales de la casa  -->
+                <div class="career-card">
+                    <div class="career-img-container">
+                        <img src="img/carbonara.jpg" alt="Recursos Humanos">
+                    </div>
+                    <div class="career-content">
+                        <h3>Spaghetti alla Carbonara</h3>
+                        <p>La clásica romana. Pasta al dente con salsa cremosa de yema, pecorino, panceta doradita y pimienta. Sin crema.</p>
+                    </div>
+                </div>
+
+                <div class="career-card">
+                    <div class="career-img-container">
+                        <img src="img/lasagna.jpg" alt="Programación">
+                    </div>
+                    <div class="career-content">
+                        <h3>Lasagna Bolognese</h3>
+                        <p>Capas de pasta fresca, ragú de carne cocinado por horas, bechamel y mucho queso gratinado. Puro hogar.</p>
+                    </div>
+                </div>
+
+                <div class="career-card">
+                    <div class="career-img-container">
+                        <img src="img/alfredo.jpg" alt="Ciberseguridad">
+                    </div>
+                    <div class="career-content">
+                        <h3>Fettuccine Alfredo</h3>
+                        <p>Pasta larga en salsa blanca súper cremosa de mantequilla y parmesano. Suave y reconfortante.</p>
+                    </div>
+                </div>
+
+                <div class="career-card">
+                    <div class="career-img-container">
+                        <img src="img/ravioli.jpg" alt="Laboratorista Clínico">
+                    </div>
+                    <div class="career-content">
+                        <h3>Ravioli de ricotta y espinaca</h3>
+                        <p>Pastitas rellenas de queso ricotta cremoso y espinaca, bañadas en salsa de mantequilla y salvia.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <h2 class="new">PIZZAS</h2><br>
+
+            <div class="careers-grid">
+                
+                <!-- Especiales de la casa  -->
+                <div class="career-card">
+                    <div class="career-img-container">
+                        <img src="img/margherita.jpg" alt="Recursos Humanos">
+                    </div>
+                    <div class="career-content">
+                        <h3>Pizza Margherita</h3>
+                        <p>La original. Tomate San Marzano, mozzarella fresca y albahaca. Colores de Italia.</p>
+                    </div>
+                </div>
+
+                <div class="career-card">
+                    <div class="career-img-container">
+                        <img src="img/pepperoni.jpg" alt="Programación">
+                    </div>
+                    <div class="career-content">
+                        <h3>Pizza Pepperoni</h3>
+                        <p>La favorita de todos. Tomate, mozzarella y rodajas de pepperoni picantito y crujiente.</p>
+                    </div>
+                </div>
+
+                <div class="career-card">
+                    <div class="career-img-container">
+                        <img src="img/quattro.jpg" alt="Ciberseguridad">
+                    </div>
+                    <div class="career-content">
+                        <h3>Quattro Formaggi</h3>
+                        <p>Para amantes del queso. Mezcla de 4 quesos italianos fundidos: mozzarella, gorgonzola, parmesano y provolone.</p>
+                    </div>
+                </div>
+
+                <div class="career-card">
+                    <div class="career-img-container">
+                        <img src="img/funghi.jpg" alt="Laboratorista Clínico">
+                    </div>
+                    <div class="career-content">
+                        <h3>Prosciutto e funghi</h3>
+                        <p>Jamón cocido y champiñones frescos sobre base de tomate y mozzarella. Clásica y equilibrada.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <h2 class="new">OTROS</h2><br>
+
+            <div class="careers-grid">
+                
+                <!-- Especiales de la casa  -->
+                <div class="career-card">
+                    <div class="career-img-container">
+                        <img src="img/risotto.jpg" alt="Recursos Humanos">
+                    </div>
+                    <div class="career-content">
+                        <h3>Risotto de champiñones</h3>
+                        <p>Arroz cremoso cocinado lento con caldo, champiñones salteados y parmesano.</p>
+                    </div>
+                </div>
+
+                <div class="career-card">
+                    <div class="career-img-container">
+                        <img src="img/bruschetta.jpg" alt="Programación">
+                    </div>
+                    <div class="career-content">
+                        <h3>Bruschetta</h3>
+                        <p>Pan tostado al horno con tomate fresco, ajo, albahaca y aceite de oliva. Ideal para empezar.</p>
+                    </div>
+                </div>
+
+                <div class="career-card">
+                    <div class="career-img-container">
+                        <img src="img/tiramisu.jpg" alt="Ciberseguridad">
+                    </div>
+                    <div class="career-content">
+                        <h3>Tiramisu</h3>
+                        <p>Capas de bizcocho al café con crema de mascarpone y cacao. El postre italiano más famoso.</p>
+                    </div>
+                </div>
+
+                <div class="career-card">
+                    <div class="career-img-container">
+                        <img src="img/panna.jpg" alt="Laboratorista Clínico">
+                    </div>
+                    <div class="career-content">
+                        <h3>Panna Cotta</h3>
+                        <p>Postrecito sedoso de crema y vainilla, con coulis de frutos rojos. Suavecito y muy mono.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <section class="seccion-video">
+                <h2>Receta fácil</h2>
+                <p class="subtitulo-video">Este video te enseña una manera fácil de preparar Fettuccine Alfredo asi muy sencillo</p>
+                <div class="video-box">
+                    <iframe 
+                    src="https://www.youtube.com/embed/rpCe0RPMY94" 
+                    title="Recera italiana"
+                    frameborder="0" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+
+        </div>
+    </section>
+    
+    <!-- SECCIÓN DE  CON RECORRIDO INTERACTIVO (JS) -->
+    <section class="teachers-section">
+        <div class="teachers-container">
+            
+            <div class="teachers-header">
+                <div>
+                    <span class="teachers-tag">Conoce a nuestro personal</span>
+                    <h2>Conoce a nuestro equipo de trabajo:</h2>
+                    <p>Somos una familia apasionada por la cocina italiana auténtica. Nuestro equipo está dividido para atenderte perfecto 
+                        en cada rincón: desde nuestras tres patios al aire libre ideales para fotos y atardeceres, hasta nuestro acogedor 
+                        salón en planta baja y nuestra exclusiva planta alta para momentos especiales.Cada uno es especialista en su área
+                         — desde nuestras pastas hechas a mano, pizzas a la leña y coctelería italiana, hasta el servicio cálido y postres 
+                         artesanales.</p>
+                </div>
+                
+                <!-- Botones funcionales con IDs -->
+                <div class="teachers-nav-buttons">
+                    <button id="btn-prev" class="nav-btn">‹</button>
+                    <button id="btn-next" class="nav-btn">›</button>
+                </div>
+            </div>
+
+            <h2 class="neww"> Área del exterior</h2><br>
+
+
+            <!-- Contenedor de las tarjetas de docentes (controlado por JS) -->
+            <div class="teachers-grid" id="teachers-track">
+                
+                <!-- Grupo 1 (Parte exterior) -->
+                <div class="teacher-card">
+                    <img src="img/camila.jpg" alt="Profesor">
+                    <div class="teacher-info">
+                        <h3>Camila Torres (Hostess & Mesera Principal)</h3>
+                        <p>Encargada de recibir a los clientes. Especialista en atención al cliente, 
+                            montaje de mesas bonitas y recomendaciones de vinos rosados y postres. Con personalidad amable.</p>
+                    </div>
+                </div>
+                
+                <div class="teacher-card">
+                    <img src="img/diego.jpg" alt="Profesora">
+                    <div class="teacher-info">
+                        <h3>Diego Herrera (Mesero / Pizzaiolo de Terraza)</h3>
+                        <p>Especialista en pizzas a la leña y coctelería fresca. Atiende la terraza del centro y se encarga de que 
+                            las pizzas salgan perfectas para la foto. Rápido y muy carismático.</p>
+                    </div>
+                </div>
+
+                <div class="teacher-card">
+                    <img src="img/emiliano.jpg" alt="Profesor">
+                    <div class="teacher-info">
+                        <h3>Emiliano Cruz (Bartender & Área de Drinks)</h3>
+                        <p>Especialista en Aperol Spritz, Negroni y limonadas italianas. Maneja el área lounge de silloncitos, 
+                            ideal para el atardecer. Experto en drinks. Disfruta el momento con una rica bebida.</p>
+                    </div>
+                </div>
+
+                <div class="teacher-card">
+                    <img src="img/isabela.jpg" alt="Profesor">
+                    <div class="teacher-info">
+                        <h3>Isabella Ferretti (Mesera de Apoyo)</h3>
+                        <p>Apoyo de Camila. Especialista en atención rápida en horas pico y en recomendar entradas y ensaladas 
+                            frescas. Muy sonriente y atenta al detalle.</p>
+                    </div>
+                </div>
+
+                <div class="teacher-card">
+                    <img src="img/luca.jpg" alt="Profesora">
+                    <div class="teacher-info">
+                        <h3>Luca Bianchi (Mesero / Runner)</h3>
+                        <p>El más rápido del equipo. Se encarga de que los platillos de la cocina lleguen volando y calientitos a 
+                            las 3 áreas de afuera. Especialista en servicio eficiente.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <h2 class="neww">Área Planta baja</h2><br>
+
+            <div class="teachers-grid" id="teachers-track">
+                
+                <!-- Grupo 2 planta baja -->
+                <div class="teacher-card">
+                    <img src="img/marco.jpg" alt="Profesor">
+                    <div class="teacher-info">
+                        <h3>Chef Marco Rossi (Chef Ejecutivo)</h3>
+                        <p>Jefe de cocina principal. Especialista en pastas frescas hechas a mano y risottos. 
+                            Controla toda la cocina para que quede perfecto y la calidad de los platillos en planta baja.</p>
+                    </div>
+                </div>
+                
+                <div class="teacher-card">
+                    <img src="img/sofia.jpg" alt="Profesora">
+                    <div class="teacher-info">
+                        <h3>Sofia Moretti (Jefa de Barra y Postres)</h3>
+                        <p>Especialista en cafetería italiana y postres. Hace el tiramisu, panna cotta y cafés nuestros postres más deliciosos. 
+                            Encargada de la barra de entrada.</p>
+                    </div>
+                </div>
+
+                <div class="teacher-card">
+                    <img src="img/mateo.jpg" alt="Profesor">
+                    <div class="teacher-info">
+                        <h3>Matteo Gallo (Mesero Principal)</h3>
+                        <p>Mano derecha del Chef Marco. Especialista en pastas y vinos tintos. Conoce la carta al 100% y 
+                            te recomienda el maridaje perfecto. Muy profesional.</p>
+                    </div>
+                </div>
+
+                <div class="teacher-card">
+                    <img src="img/giulia.jpg" alt="Profesor">
+                    <div class="teacher-info">
+                        <h3>Giulia Marino (Barista especializada)</h3>
+                        <p>Perfecta en bebida y cocteles sin alcohol, la indicada para brindar seguridad al hacer bebidas 
+                            para los más pequeños. Apoyo de Sofia en barra y postres. Ideal para desayuno.</p>
+                    </div>
+                </div>                
+            </div>
+
+            <h2 class="neww">Área Planta alta (VIP)</h2><br>
+
+            <div class="grid" id="teachers-track">
+                
+                <!-- Grupo 3 alta -->
+                <div class="card">
+                    <img src="img/rocio.jpg" alt="Profesor">
+                    <div class="info">
+                        <h3>Rocío Russo (Capitana de Meseros VIP)</h3>
+                        <p>Encargada de planta alta para eventos, cenas románticas y grupos grandes. Especialista en servicio fino, 
+                            montaje de mesas para aniversario y atención personalizada. Habla inglés e italiano básico.</p>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <img src="img/villa.jpg" alt="Profesora">
+                    <div class="info">
+                        <h3>Stefano Villa (Mesero VIP / Sommelier Jr)</h3>
+                        <p>Apoyo de Valentina en planta alta. Especialista en vinos y servicio para todos nuestros eventos privados y cenas románticas. 
+                            Muy elegante y discreto lo necesario para tener una noche agradable.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="careers-section">
+        <div class="carousel">
+            <br><h2 class="new">Áreas del Restaurante</h2><br>
+  <div class="track" id="track">
+<div class="slide">
+      <img src="img/exterior.jpg" alt="Terraza">
+      <div class="infor">
+        <h3>Zona del exterior - Exterior</h3>
+        <p>Nuestro bello lugar al aire libre</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <img src="img/baja.jpg" alt="Planta Baja">
+      <div class="infor">
+        <h3>Planta Baja - Salón Principal</h3>
+        <p>Con Chef Marco Rossi y pastas frescas</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <img src="img/alta.jpg" alt="Planta Alta">
+      <div class="infor">
+        <h3>Planta Alta - Área Privada</h3>
+        <p>Ideal para cenas románticas y eventos</p>
+      </div>
+    </div>
+
+  </div>
+
+  <button class="btn prev">‹</button>
+  <button class="btn next">›</button>
+  <div class="dots" id="dots"></div>
+</div>
+    </section>
+
+    <!-- SECCIÓN DE DOS COLUMNAS CON FORMULARIO INTEGRADO -->
+    <section class="hero-section">
+        <div class="hero-container">
+            
+            <!-- Formulario de reservación -->
+            <div class="hero-text-side">
+                <span class="hero-tag">Haz una reservación</span>
+                <h1 class="hero-title-custom">Tienes un evento preparado</h1>
+                <p class="hero-desc-custom">
+                    Déjanos tus datos y te contactaremos para confirmar tu mesa en Petali D'Amore. Ideal para cenas románticas, 
+                    aniversarios, cumpleaños y reuniones familiares.
+                </p>
+                
+                <div class="hero-subtitle-custom">
+                    Conoce todo sobre tu reservación en Petali D'Amore:
+                </div>
+                <div class="hero-benefits hero-benefits-column">
+                    <span>✓ Mesas disponibles en: Terraza Jardín (exterior en banqueta), Planta Baja y Planta Alta privada</span>
+                    <span>✓ Horarios, promociones y menú especial para eventos</span>
+                    <span>✓ Proceso de reservación y confirmación inmediata por WhatsApp</span>
+                    <span>✓ Atención personalizada y montaje de mesa para tu ocasión especial</span>
+                </div>
+            </div>
+
+            <!-- Columna Derecha: Tarjeta Flotante con Formulario (10 campos/etiquetas) -->
+            <div class="hero-form-side">
+                <div class="cbtis-hero-form-card">
+                    
+                    <h3 class="form-card-title">
+                        Agenda tu reservación
+                    </h3>
+
+                    <form id="form-hero-informes" action="#" method="POST">
+                        
+                        <!-- 1. Campo de Texto: Nombre -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <input type="text" id="info_nombre" name="nombre" required placeholder="Nombre" class="form-control-input">
+                        </div>
+
+                        <!-- 2. Campo de Texto: Apellido -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <input type="text" id="info_apellido" name="apellido" required placeholder="Apellidos" class="form-control-input">
+                        </div>
+
+                        <!-- 4. Campo de Teléfono -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <input type="tel" id="info_telefono" name="telefono" required placeholder="Teléfono o WhatsApp" class="form-control-input">
+                        </div>
+
+                        <div class="cbtis-input-group form-group-margin">
+                            <label>Número de personas:</label>
+                            <div class="contador">
+                                <button type="button" onclick="cambiarPersonas(-1)">-</button>
+                                <input type="number" id="personas" name="personas" value="2" min="1" max="20" readonly>
+                                <button type="button" onclick="cambiarPersonas(1)">+</button>
+                            </div>
+                        </div>
+
+                        <!-- 5. Menú Desplegable (Select): Nivel de Estudios -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <select id="info_nivel" name="nivel" required class="form-control-select">
+                                <option value="">Selecciona el área en donde deseas tu mesa</option>
+                                <option value="media">Área del exterior</option>
+                                <option value="media">Planta baja</option>
+                                <option value="media">Planta alta</option>
+                            </select>
+                        </div>
+
+                        <!-- 7. Campo de Fecha (Date): Fecha estimada de ingreso -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <label for="info_fecha" class="form-date-label">Fecha y hora que desea de su reservación:</label>
+                            <input type="datetime-local" id="info_fecha" name="fecha" required class="form-control-date">
+                        </div>
+
+                        <div class="cbtis-input-group form-group-margin">
+                            <select id="info_nivel" name="nivel" required class="form-control-select">
+                                <option value="">Su ocasión especial</option>
+                                <option value="media">Cumpleaños</option>
+                                <option value="media">Aniversario</option>
+                                <option value="media">Cita romántica</option>
+                                <option value="media">Pedida de mano</option>
+                                <option value="media">Cena de negocios</option>
+                                <option value="media">Reunión familiar</option>
+                                <option value="media">Ninguna/Solo a comer</option>
+                            </select>
+                        </div>
+
+
+                        <!-- 8. Área de Texto (Textarea): Dudas adicionales -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <textarea id="info_comentarios" name="comentarios" rows="2" placeholder="Escribe tus peticiones..." class="form-control-textarea"></textarea>
+                        </div>
+
+                        <!-- 10. Botón de Envío (Submit Button) -->
+                        <button type="submit" class="cbtis-btn-ingresar form-submit-btn">
+                            Reservar
+                        </button>
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE CONVENIOS DOBLE LÍNEA -->
+    <section class="convenios-section">
+        <div class="convenios-container">
+            
+            <div class="section-header">
+                <span class="teachers-tag convenience-tag-custom">Mira lo que dicen los clientes acerca de nosotros</span>
+                <h2>Comentarios de nuestros clientes</h2>
+                <p>Sus lindas palabras nos llena de orgullo para seguir adelante y seguir ofreciendoles esta maravillosa atención que 
+                    se merecen, gracias a ustedes seguimos haciendo lo que más nos gusta.</p>
+            </div>
+
+            <!-- LÍNEA 1: Se desplaza hacia la IZQUIERDA -->
+            <div class="marquee-wrapper">
+                <div class="marquee-track marquee-track-top">
+                    <div class="convenio-card">Volveremos sin duda, <br>nos encantó todo</div>
+                    <div class="convenio-card">La pasta estaba increíble,<br> volveremos pronto</div>
+                    <div class="convenio-card">Excelente servicio, nos atendieron muy <br>rápido a pesar de estar lleno</div>
+                    <div class="convenio-card">La zona del exterior es hermosa,<br> ideal para fotos</div>
+                    <div class="convenio-card">Celebramos el cumpleaños de mi mamá <br>y le pusieron un detalle muy lindo</div>
+                    <div class="convenio-card">Las porciones son muy <br>generosas y a buen precio</div>
+                    <div class="convenio-card">La lasaña es la mejor que <br>he probado en mi vida</div>
+                    <div class="convenio-card">Ambiente tranquilo,<br> perfecto para platicar</div>
+                    <!-- Duplicado para efecto infinito fluido -->
+                    <div class="convenio-card">Volveremos sin duda, <br>nos encantó todo</div>
+                    <div class="convenio-card">La pasta estaba increíble,<br> volveremos pronto</div>
+                    <div class="convenio-card">Excelente servicio, nos atendieron muy <br>rápido a pesar de estar lleno</div>
+                    <div class="convenio-card">La zona del exterior es hermosa,<br> ideal para fotos</div>
+                    <div class="convenio-card">Celebramos el cumpleaños de mi mamá <br>y le pusieron un detalle muy lindo</div>
+                    <div class="convenio-card">Las porciones son muy <br>generosas y a buen precio</div>
+                    <div class="convenio-card">La lasaña es la mejor que <br>he probado en mi vida</div>
+                    <div class="convenio-card">Ambiente tranquilo,<br> perfecto para platicar</div>
+                </div>
+            </div>
+
+            <!-- LÍNEA 2: Se desplaza hacia la DERECHA -->
+            <div class="marquee-wrapper marquee-wrapper-spacing">
+                <div class="marquee-track marquee-track-bottom">
+                    <div class="convenio-card">Ideal para una<br> cita, todo 10/10</div>
+                    <div class="convenio-card">Muy buena atención del<br> mesero, muy amable</div>
+                    <div class="convenio-card">Lugar limpio, acogedor y <br>con muy buen sazón</div>
+                    <div class="convenio-card">La pizza a la leña<br> está espectacular</div>
+                    <div class="convenio-card">Nos hicieron sentir muy especiales en<br> nuestra pedida de mano, gracias</div>
+                    <div class="convenio-card">Tardaron un poco en traer la <br>comida pero valió la pena</div>
+                    <div class="convenio-card">Recomiendo reservar, se llena<br> rápido los fines de semana</div>
+                    <div class="convenio-card">Todo delicioso y el ambiente súper <br>romántico, perfecto para aniversario</div>
+                    <!-- Duplicado para efecto infinito fluido -->
+                    <div class="convenio-card">Ideal para una<br> cita, todo 10/10</div>
+                    <div class="convenio-card">Muy buena atención del<br> mesero, muy amable</div>
+                    <div class="convenio-card">Lugar limpio, acogedor y <br>con muy buen sazón</div>
+                    <div class="convenio-card">La pizza a la leña<br> está espectacular</div>
+                    <div class="convenio-card">Nos hicieron sentir muy especiales en<br> nuestra pedida de mano, gracias</div>
+                    <div class="convenio-card">Tardaron un poco en traer la <br>comida pero valió la pena</div>
+                    <div class="convenio-card">Recomiendo reservar, se llena<br> rápido los fines de semana</div>
+                    <div class="convenio-card">Todo delicioso y el ambiente súper <br>romántico, perfecto para aniversario</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PIE DE PÁGINA (FOOTER CON REDES SOCIALES) -->
+    <footer class="footer">
+        <div class="footer-container">
+            
+            <div class="footer-info">
+                <p>Petali d'Amore - Cocina con amor &copy; 2026</p>
+                <p class="footer-author">Desarrollado por: Flores Corona Noemi (5A PRO VESP)</p>
+            </div>
+
+            <!-- Enlaces de Redes Sociales -->
+            <div class="footer-socials">
+                <a href="https://www.facebook.com/" target="_blank" class="social-icon" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                
+                <a href="https://www.instagram.com/" target="_blank" class="social-icon" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                
+                <a href="https://www.whatsapp.com/" target="_blank" class="social-icon" aria-label="WhatsApp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                
+                <a href="https://x.com/" target="_blank" class="social-icon" aria-label="X">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="https://tiktok.com/" target="_blank" class="social-icon" aria-label="Tiktok">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
